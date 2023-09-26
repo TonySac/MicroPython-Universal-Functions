@@ -1,3 +1,9 @@
+# gitignore default Python, default MacOS 
+# All VSCode, micropico, & secrets.py
+
+secrets.py
+.micropico
+
 # General
 .DS_Store
 .AppleDouble
@@ -25,20 +31,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
 
 # Built Visual Studio Code Extensions
 *.vsix
-
-secrets.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
