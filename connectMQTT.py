@@ -3,7 +3,7 @@
 # Uses "secrets.py" to MQTT IDs
 
 import secrets
-import mip #Import Micropython package library **Requires internet**
+import mip #Import MicroPython package library **Requires internet**
 mip.install('umqtt.simple') #Install MQTT package **Requires internet**
 from umqtt.simple import MQTTClient
 
